@@ -15,9 +15,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn Juan
         </a>
+        <button type="button" class="btn btn-primary">Primary</button>
       </header>
+     
     </div>
   );
 }
