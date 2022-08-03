@@ -1,5 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
+import  Button  from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {
@@ -19,7 +21,7 @@ function App() {
         >
           Learn Juan
         </a>
-        <button type="button" class="btn btn-primary">Primary</button>
+        <Button>send</Button>
       </header>
      
     </div>
