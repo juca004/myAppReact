@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import  Button  from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -8,22 +7,10 @@ function App() {
   return (
   <>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Juan
-        </a>
-        <Button>send</Button>
-      </header>
-     
+      <Button variant="link" style={{ color: 'purple' }}>Link</Button>
+      <Button variant="link" style={{ color: 'red' }}>Link</Button>
+      <Button variant="link" style={{ color: 'green' }}>Link</Button>
+      <Button variant="link" style={{ color: 'brown' }}>Link</Button>  
     </div>
   </>
   );
